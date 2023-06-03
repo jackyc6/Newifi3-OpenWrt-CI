@@ -46,9 +46,9 @@ jobs:
           cd package
           git clone https://github.com/kenzok8/small-package
           mkdir openwrt-packages
-          mv ../openwrt-packages/luci-app-passwall openwrt-packages/luci-app-passwall
-          mv ../openwrt-packages/luci-app-passwall2 openwrt-packages/luci-app-passwall2
-          mv ../openwrt-packages/luci-app-openclash openwrt-packages/luci-app-openclash
+          mv ../luci-app-passwall openwrt-packages/luci-app-passwall
+          mv luci-app-passwall2 openwrt-packages/luci-app-passwall2
+          mv ./luci-app-openclash openwrt-packages/luci-app-openclash
           
           cd lean
           rm -rf luci-theme-argon  
