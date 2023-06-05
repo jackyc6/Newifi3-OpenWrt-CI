@@ -42,11 +42,8 @@ jobs:
       - name: Install addons
         run: |
           echo "src-git helloworld https://github.com/fw876/helloworld" >> ./feeds.conf.default 
-          git clone https://github.com/xiaorouji/openwrt-passwall.git
           cd package
-          git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
-          
-          git clone https://github.com/vernesong/OpenClash package/luci-app-clash
+
           
           
           cd lean
